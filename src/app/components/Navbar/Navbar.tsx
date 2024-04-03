@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export const Navbar = () => {
-    return <>
+    return (
     <header>
         <nav>
             <ul>
@@ -10,5 +10,5 @@ export const Navbar = () => {
             </ul>
         </nav>
     </header>
-    </>
+    )
 }
